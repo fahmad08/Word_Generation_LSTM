@@ -47,4 +47,4 @@ if st.button('Generate Text'):
         generated_text = generate_text(input_sentence, num_words, model, max_sequence_len, tokenizer)
         st.write("Generated Text:", generated_text)
     else:
-        st.warning("Please enter a seed sentence.")
+        st.warning("Please enter a seed sentencee.")
